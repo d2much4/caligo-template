@@ -1,0 +1,34 @@
+/* This is the stylesheet for the navigation bar*/
+
+/* main navigation container*/
+.navigation{
+    height:150px;
+}
+
+/* DocNav container */
+.docnav{
+    width: 550px;
+    height:140px;
+    float:left;
+    background-color:rgb(235, 229, 229);
+}
+.links{
+    height:50px;
+}
+.navtitle{
+    height:5px;
+}
+
+/* NavBar container styling */
+.navbar{
+    width:217px;
+    height:30px;
+    padding-bottom:3px;
+    padding-top:3px;
+    float:right;
+
+    background-color:black;
+}
+.barcon{
+    padding-right:7px;
+}

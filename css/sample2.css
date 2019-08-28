@@ -1,0 +1,77 @@
+/* This is an example of a CSS stylesheet*/
+/* sample2.css --> Sample.html*/
+
+/* (I) Button Animation and styling...*/
+#project1 {
+    background-color:black;
+    height: 110px;
+    width:777px;
+}
+.innerproj{
+    padding-left:113px;
+    width:737px;
+}
+
+.nfobanner{
+    float:left;
+    height:110px;
+}
+.container {
+    position: relative;
+    width: 150px;
+    float: left;
+    padding-top: 5px;
+}
+.container1{
+    padding-top:5px;
+
+}
+
+.image {
+    display:block;
+    width:100px;
+    height: 100px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    height: 0;
+    width:100px;
+    transition: .7s ease;
+}
+.overlay1 {
+    position: absolute;
+    bottom: -20px;
+    left: 658px;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    height: 0;
+    width:100px;
+    transition: .7s ease;
+
+}
+
+.container:hover .overlay{
+    height: 25%;
+}
+.container1:hover .overlay1{
+    height:3.5%;
+}
+
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}

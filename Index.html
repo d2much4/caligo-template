@@ -1,0 +1,300 @@
+<!-- Adapted from code found at TreeHouse.com-->
+<!-- (I) Doctype and Doc language...
+        A) Doctype:
+        B) Doc Language:
+    (Note: I may fill in the rest of this later but, for the 
+        time being, I think it is pretty much self explanatory)-->
+<!doctype html>
+<html class="no-js" lang="">
+
+<!-- (II) <head>> Metadata and styling imports...
+        A) Metadata:
+        B) Page Title:
+        C) CSS imports:
+            1) Normalize:
+            2) Main:
+            3) LocalCSS:
+                i) Page Styling: sample.css
+                ii) NavTools Styling: *navtools.css
+                iii) DocTools Styling: *doctools.css
+                iv) Project5B Styling: sample2.css
+    (Note: '*' denotes files not yet created)-->
+<head>
+    <!-- (A) Metadata...-->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- (B) Page Title shown in browser tab...-->
+    <title>Caligo Sample</title>
+
+    <!-- (C) CSS imports...-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/sample.css">
+    <link rel="stylesheet" href="css/sample2.css">
+    <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<!-- (III) <body>> Main part of the page... (the part you see...)
+        A) <header>
+            1) LogoTools: logo and animated toolbar
+            2) NavTools: doc navigation and NavBar
+        B) <main>
+            1) 
+            2)
+        C) <footer>
+            1) Information
+            2) Media Links
+
+    (Note: I still need to finish this part by adding in 
+        the documentation for the additional parts of the
+        project)...-->
+<body>
+
+    <!-- (A) (<header>):
+            LogoTools: Main logo and navigation toolbar. There
+            will be links to different sections of the Caligo
+            framework documentation-->
+    <!-- (AA) - <header> Layout Equation:
+        <header> -> <header>(LogoTools + NavTools)
+        v1) LogoTools -> Logo + ToolBar
+            v11) Logo -> <img-logo>
+            v12) ToolBar -> <div-overlay>(4<div>(<img>)))
+
+        v2) NavTools -> <div-navigation>(DocNav + NavBar)
+            v21) DocNav -> <nav>(<h1>+<ul>)
+            v22) NavBar -> <div>(4<div>(<div-overlay2>(<img-nav(n)>)))
+    
+        (Note: HS8 (HyperSpace HTML -> codename: Rourke)
+            - Under Construction!!!) by DPC 2019/14/04/17:22
+                Defining Characteristics:
+                    I) Void Oriented Programming:
+                        Basically, all objects are objects
+                        that can be operated on. This is important
+                        because it revolutionizes object creation by
+                        allowing you to create objects 
+                        (i.e. - variables, functions and classes) that 
+                        depend on 'universal' variables, allowing assignment
+                        after runtime.
+                    II) Features:
+                        A) High Level objects:
+                            1) Cipers:
+                            2) Universals:
+                        B) Matrix Interpreter: Dual Runtime Engine
+                            1) Only Ciphers are madatory and loaded, or defined,
+                                at Creation (Initial runtime)...
+                            2) Universals can either:
+                                A) They can be loaded with an initial state during Creation 
+                                    (initial-runtime) and morph post-runtime (CHAOS Engine)
+                                     with respect to Context.
+                                B) Or, they can be created and defined during Matrix
+                                    Manipulation (post-runtime via the CHAOS Engine).
+                            3) Efficient use of Ciphers and Universals should exponentially
+                                increase speed by lowering resource load an enabling more
+                                efficient paralization of algorithms. It should also 
+                                significantly broaden the types of problems programmers 
+                                can solve and program for. The possible applications for
+                                AI also look promising. In theory, a computer utilizing 
+                                this style of programming should be able to produce 
+                                algorithms and solve problems in real time. 
+                              -->
+
+    <!-- (AA) - <header> Layout Equation:
+        <header> -> <header>(LogoTools + NavTools)
+        v1) LogoTools -> Logo + ToolBar
+            v11) Logo -> <img-logo>
+            v12) ToolBar -> <div-overlay>(4<div>(<img>)))
+            -->
+    <header class='header'>
+
+        <!-- (1) LogoTools-->
+        <a href="page2.html" >
+            <img src="images/banner.jpg" alt="logo" class='mainLogo' >
+        </a>
+
+        <!--END OF LogoTools-->
+
+        <!-- (2) Navigation and Navigation Toolbar - NavTools
+                A) DocNav:
+                B) NavBar:
+            -->
+
+        <!--HS8>>
+            v2) NavTools -> <div-navigation>(DocNav + NavBar)
+            v21) DocNav -> <div-docnav>(<nav>(<h1>+<ul>))
+            v22) NavBar -> <div-barcon>(4<div>(<div-overlay2>(<img-nav(n)>)))                
+                (Note: goto nav.css for styling)-->
+         
+        <!-- (2) NavTools-->
+        <div class="navigation">
+            <!-- A) DocNav:...-->
+            <div class="docnav">
+                <nav>
+                    <h1 title="Caligo Docs" class='navtitle'>Caligo Docs</h1>
+                    <ul class='links1'>
+                        <li><a href="page3.html">Route 469</a></li>
+                        <li><a href="page3.html">El Toro</a></li>
+                        <li><a href="page3.html">Roswell</a></li>
+                        <li><a href="page3.html">HyperSpace HS8</a></li>
+                    </ul>
+                </nav>
+            </div>
+             
+            <!-- B) NavBar...-->
+            <div class="barcon">
+                <img src="images/navbanner.jpg" alt="navigator bar" class="navbar">
+                <img src="images/dcbanner.jpg" alt="navigator bar" class="navbar">
+                <img src="images/prbanner.jpg" alt="navigator bar" class="navbar">
+                <img src="images/downbanner.jpg" alt="navigator bar" class="navbar">
+            </div>
+
+        </div>
+
+        <!--END OF NavTools-->
+
+    </header>
+    <!--END OF HEADER SECTION-->
+
+
+    <!--START OF MAIN-->
+    <main>
+
+       <!--START OF THE TOP BANNER SECTION
+        <section id="banner-top">
+           <hr>
+            <h1 title="Tyler's Tickets"><span class="small-title">Website - UX - Branding</span>Tyler's Tickets</h1>
+        </section>
+        <END OF THE TOP BANNER SECTION-->
+
+        <!--START OF PROJECT LOGO-->
+        <div id="project-logo">
+            <img src="images/midimage.jpg" alt="tyler's tickets" class='midImage'>
+        </div>
+        <!--END OF PROJECT LOGO-->
+
+        <!--START OF PROJECT DESCRIPTION-->
+        <section id="project-description">
+            <h2 title="Project Description">The Caligo Project</h2>
+            <p> Today, most businesses are moving thier operations to the cloud
+                because of efficiency and cost concerns. Cloud computing represents
+                a brave new world where near instantaneous data analysis coupled with 
+                an almost unlimited storage capacity will allow developers to build resilient
+                platforms that translate into increased productivity and profit
+                for their business.  
+            </p>
+            <h3> Hybrid Cloud Architecture</h3>
+            <p>The Caligo Project is a suite of tools designed
+                    to seemlessly facilitate cooperation between cloud services and your business 
+                    network. The hybrid concept stratifies the cloud system into two layers: Cloud 
+                    servers and office servers. Each layer is responsible for a distinct operations
+                    yet designed to work together for the greatest impact. Below, is a list of sub-projects 
+                    that make up the Caligo project. You can browse each project or begin the quick-start 
+                    tutorial for a comprehensive view of the system and how to use it.
+
+            </p>
+        </section>
+        <!--END OF PROJECT DESCRIPTION-->
+
+        <!--START OF PROJECT SHOWCASE-->
+        <div id="project1">
+            <div class='innerproj'>
+                <div class="container">
+                    <img src="images/imbanner.jpg"  alt="tyler's tickets homepage" class="image">
+                    <div class="overlay">
+                            <div class='text'>Selection1</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/imbanner.jpg"  alt="tyler's tickets homepage" class="image">
+                    <div class="overlay">
+                        <div class='text'>Selection2</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/imbanner.jpg"  alt="tyler's tickets homepage" class="image">
+                    <div class="overlay">
+                        <div class='text'>Selection3</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="images/imbanner.jpg"  alt="tyler's tickets homepage" class="image">
+                    <div class="overlay">
+                        <div class='text'>Selection4</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--END OF PROJECT SHOWCASE-->
+
+        <!--Quick Start Panel-->
+        <section id="contact">
+            <h2 title="Start here">Don't know where to begin???</h2>
+            <p>
+                Don't worry, we have you covered. Although each quick-start is organized
+                into sections, they all converge at some point. So, you can do one at a time 
+                or browse them simultaneously. Start with the first one if you are interested
+                in starting from the ground up.
+            </p>
+        </section>
+        <div id="project-links">
+            <h3 id='quick-start'>Quick-Start Guides</h3>
+            <ul>
+
+                <li class="next">
+                    <a href="/work/jetpack.html" class='links'>
+                        <span class="prev-next">Route 469</span>
+                    </a>
+                </li>
+
+                <li class="next">
+                    <a href="page2.html" class='links'>
+                        <span class="prev-next">El Toro</span>
+                    </a>
+                </li>
+                <li class="next">
+                    <a href="page2.html" class='links'>
+                        <span class="prev-next">Roswell</span>
+                    </a>
+                </li>
+                <li class="next">
+                        <a href="page2.html" class='links'>
+                        <span class="prev-next">HyperSpace</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--END OF QuickStart Panel-->  
+
+    </main>
+    <!--END OF MAIN-->
+
+    <!--START OF Media Links-->
+    <footer class='footer'>
+        <div id='outer-container'>
+
+            <div id='inner-panel'>
+                <a href="http://www.facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook social media">
+                </a>
+                <a href="http://www.github.com" target="_blank">
+                    <img src="images/github.png" alt="github link">
+                </a>
+                <a href="#">
+                    <img src="images/googleplus.png" alt="googleplus link">
+                </a>
+                <a href="https://azurewebsites" target="_blank">
+                    <img src="images/cloudim.png" alt="cloud services link">
+                </a> 
+            </div>
+        </div>
+
+        <p>&copy; 2019 Caligo Systems. All rights reserved.</p>
+    </footer>
+    <!--END OF MediaLinks-->
+
+</body>
+
+</html>
